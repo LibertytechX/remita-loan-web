@@ -1,0 +1,695 @@
+@font-face {
+    font-family: Lato;
+    src: url(../font/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: Raleway;
+    src: url(../font/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: Lato;
+    src: url(../font/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../font/Poppins-Regular.ttf);
+}
+
+#container_main {
+    min-width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container_wrapper_main {
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.form_container_main {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    min-height: 100%;
+    background: #ffffff;
+    padding: 40px 70px;
+}
+
+.form_container_header_main {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_container_header_main {
+    h2 {
+        font-family: Raleway;
+        color: #222460;
+        font-size: 20px;
+        font-weight: 900;
+    }
+    img {
+        width: 70px;
+        height: 70px;
+        margin-top: -10px;
+    }
+    span {
+        font-size: 15px;
+        color: #222460b4;
+    }
+}
+
+.intro_text {
+    font-family: Raleway;
+    color: #22246082;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.form_wrapper {
+    position: relative;
+    display: flex;
+}
+.input_container {
+    p {
+        font-family: Raleway;
+        color: #222460;
+        font-size: 15px;
+        font-weight: 900;
+    }
+    input {
+        width: 300px;
+        height: 30px;
+        margin-top: -10px;
+        font-family: Raleway;
+        outline: #222460;
+        border: 1px solid #494dc4;
+        padding: 5px;
+    }
+    h6 {
+        font-family: Raleway;
+        color: #ff0000;
+        font-size: 12px !important;
+        font-weight: 500;
+    }
+}
+.move {
+    margin-left: 60px;
+}
+
+.consent {
+    margin-top: 70px;
+}
+.consent {
+    h2 {
+        font-family: Raleway;
+        color: #222460;
+        font-size: 15px;
+        font-weight: 900;
+    }
+    p {
+        font-family: Raleway;
+        color: #22246082;
+        font-size: 14px;
+        font-weight: 900;
+        margin-top: 20px;
+        line-height: 25px;
+        text-align: justify;
+    }
+}
+
+.consent2 {
+    margin-top: 40px;
+}
+
+.consent2 {
+    h2 {
+        font-family: Raleway;
+        color: #222460;
+        font-size: 15px;
+        font-weight: 900;
+    }
+    label {
+        font-family: Raleway;
+        color: #646475d4;
+        font-size: 14px;
+        font-weight: 900;
+        margin-top: 20px;
+        line-height: 25px;
+        margin-left: 5px;
+    }
+    .m_l {
+        margin-left: 50px;
+    }
+}
+
+.button_cont {
+    button {
+        padding: 10px 40px;
+        background-color: #069ad2;
+        border: none;
+        margin-top: 40px;
+        color: #ffffff;
+        font-family: Poppins;
+        font-size: 17px;
+        border-radius: 30px;
+    }
+    a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
+
+.image_container_main {
+    width: 50%;
+    height: auto;
+    background: url(../images/img1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.footer_main {
+    width: 100%;
+    height: auto;
+    background-color: #161f7c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0px;
+}
+.footer_main {
+    p {
+        color: #ffffff;
+        font-family: Raleway;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #container_main {
+        min-width: 100%;
+        min-height: 100%;
+        box-sizing: border-box;
+    }
+    .container_wrapper_main {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        // flex-direction: column;
+        // // overflow: auto;
+        // position: relative;
+    }
+
+    .form_container_main {
+        position: relative;
+        width: 100% !important;
+        background: linear-gradient(0deg, rgba(39, 13, 100, 0.9), rgba(0, 0, 0, 0.3)), url(../images/responsive2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        // background: #000;
+        padding: 40px 20px !important;
+    }
+    .form_container_header_main {
+        h2 {
+            font-family: Raleway;
+            color: #222460;
+            font-size: 20px;
+            font-weight: 900;
+        }
+        img {
+            width: 70px;
+            height: 70px;
+            margin-top: -10px;
+        }
+        span {
+            font-size: 15px;
+            color: #ffffff;
+        }
+    }
+    .consent {
+        h2 {
+            font-family: Raleway;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 900;
+        }
+        p {
+            font-family: Raleway;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 900;
+            margin-top: 20px;
+            line-height: 25px;
+            text-align: justify;
+        }
+    }
+    .consent2 {
+        h2 {
+            font-family: Raleway;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 900;
+        }
+        label {
+            font-family: Raleway;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 900;
+            margin-top: 20px;
+            line-height: 25px;
+            margin-left: 5px;
+        }
+        .m_l {
+            margin-left: 50px;
+        }
+    }
+    .input_container {
+        p {
+            font-family: Raleway;
+            color: #222460;
+            font-size: 15px;
+            font-weight: 900;
+        }
+        input {
+            width: 300px;
+            height: 30px;
+            margin-top: -10px;
+            font-family: Raleway;
+            outline: #222460;
+            border: none !important;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        h6 {
+            font-family: Raleway;
+            color: #ff0808;
+            font-size: 12px !important;
+            font-weight: 500;
+        }
+    }
+
+    .image_container_main {
+        display: none;
+    }
+    .form_wrapper {
+        flex-direction: column;
+    }
+    .move {
+        margin-left: 0px !important;
+    }
+    .footer_main {
+        width: 100%;
+        height: 100px;
+        background-color: #161f7c;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px 0px;
+        position: absolute;
+        margin-top: 0px;
+    }
+
+    .hideMail {
+        display: none;
+    }
+}
+
+/* loading css animation */
+#loading_animation {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(86, 121, 245, 0.7);
+    z-index: 999;
+    display: none;
+}
+.loading_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.loading_container p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 22px;
+}
+
+#testing {
+    font-family: Poppins;
+    font-size: 22px;
+}
+
+// session Decline modal
+
+#session_decline {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(86, 121, 245, 0.7);
+    z-index: 999;
+    display: none;
+}
+
+.session_modal_wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.session_modal_card {
+    width: 30%;
+    height: 60%;
+    background: url(../images/ussd_bacground.svg);
+    background-size: cover;
+    background-position: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.logo_consent {
+    width: 100%;
+    height: 45%;
+    position: relative;
+    // background-color: #e9eef1;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.logo_consent img {
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+}
+.content_session {
+    width: 100%;
+    height: 55%;
+    position: relative;
+    // background-color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_session_card {
+    width: 70%;
+    // background: #ffffff;
+    border-radius: 15px;
+    padding: 20px 40px;
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_session_card {
+    h1 {
+        font-family: Raleway;
+        color: #1b1b1b;
+        font-size: 25px;
+        font-weight: 900;
+    }
+    p {
+        font-family: Raleway;
+        color: #353535;
+        font-size: 13px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 20px;
+    }
+    span {
+        font-weight: 900;
+        font-size: 15px;
+    }
+    .yes {
+        background: #025e33;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        font-family: Raleway;
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 20px;
+    }
+    .no {
+        padding: 10px 30px;
+        border-radius: 10px;
+        font-family: Raleway;
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 20px;
+        background-color: #a03333;
+        border: none;
+        margin-left: 30px;
+    }
+
+    button {
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+    }
+    button:hover {
+        padding: 10px 40px;
+    }
+}
+
+// CONSENT MODAL
+#consent_modal_container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    display: none;
+}
+.consent_modal_wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.consent_modal_card {
+    width: 30%;
+    height: 60%;
+    background: url(../images/ussd_bacground.svg);
+    background-size: cover;
+    background-position: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.logo_consent {
+    width: 100%;
+    height: 45%;
+    position: relative;
+    // background-color: #e9eef1;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.logo_consent img {
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+}
+.content_consent {
+    width: 100%;
+    height: 55%;
+    position: relative;
+    // background-color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_consent_card {
+    width: 70%;
+    // background: #ffffff;
+    border-radius: 15px;
+    padding: 20px 40px;
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_consent_card {
+    h1 {
+        font-family: Raleway;
+        color: #1b1b1b;
+        font-size: 25px;
+        font-weight: 900;
+    }
+    p {
+        font-family: Raleway;
+        color: #353535;
+        font-size: 13px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 20px;
+    }
+    span {
+        font-weight: 900;
+        font-size: 15px;
+    }
+    .approve_ {
+        background: #3833a0;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        font-family: Raleway;
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 20px;
+    }
+    .disapprove_ {
+        border: 1px solid #3833a0;
+        padding: 10px 30px;
+        border-radius: 10px;
+        font-family: Raleway;
+        color: #131313;
+        font-size: 13px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 20px;
+        background: #fff;
+        margin-left: 30px;
+    }
+
+    button {
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+    }
+    button:hover {
+        padding: 10px 40px;
+    }
+}
+
+// body {
+// }
+
+@media screen and (max-width: 768px) {
+    .consent_modal_card {
+        width: 90%;
+        height: 70%;
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .session_modal_card {
+        width: 90%;
+        height: 70%;
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .consent_button_container {
+        display: flex;
+        flex-direction: column;
+    }
+    .approve_ {
+        background: #3833a0;
+        padding: 10px 0px !important;
+        border: none;
+        border-radius: 10px;
+        font-family: Raleway;
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 20px;
+        width: 100% !important;
+    }
+    .disapprove_ {
+        border: 1px solid #3833a0;
+        padding: 10px 0px;
+        border-radius: 10px;
+        font-family: Raleway;
+        color: #131313;
+        font-size: 13px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 20px;
+        background: #fff;
+        margin-left: 0px !important;
+        width: 100% !important;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1077px) {
+    .consent_modal_card {
+        width: 90%;
+        height: 70%;
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .session_modal_card {
+        width: 90%;
+        height: 70%;
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .consent_modal_card {
+        width: 90%;
+        height: 70%;
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .session_modal_card {
+        width: 90%;
+        height: 70%;
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content_consent_card {
+        width: 100%;
+        // background: #ffffff;
+        border-radius: 15px;
+        padding: 20px 10px;
+        margin-top: -80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+// CONSENT MODAL
+
+.hideInput_temp {
+    display: none;
+}

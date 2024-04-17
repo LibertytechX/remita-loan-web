@@ -1,0 +1,251 @@
+#container_main_otp {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 20px 60px;
+    background: #5678f5b4;
+}
+
+.container_wrapper_otp {
+    width: 100%;
+    height: 100%;
+    // padding: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.otp_content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../images/ussd_bacground.svg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    display: flex;
+    // padding: 40px 70px;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    padding: 5px 20px;
+}
+
+.otp_form {
+    background-color: #ffffff93;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 100px;
+}
+.otp_form {
+    h2 {
+        font-family: poppins;
+        font-weight: 600;
+        font-size: 30px;
+        color: #141d55;
+    }
+    p {
+        margin-top: 0 !important;
+        font-family: poppins;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .otp_input {
+        width: 50%;
+        // height: 30px;
+        outline: none;
+        border: 1px solid #5679f5;
+        letter-spacing: 35px;
+        font-size: 25px;
+        padding: 10px 20px;
+        text-align: center;
+        font-family: Raleway;
+        font-weight: 600;
+    }
+    .number_input {
+        width: 50%;
+        // height: 30px;
+        outline: none;
+        border: 1px solid #5679f5;
+        font-size: 25px;
+        padding: 10px 20px;
+        margin-top: 20px;
+    }
+
+    h6 {
+        margin-top: 0 !important;
+        font-family: poppins;
+        font-weight: 500;
+        font-size: 15px;
+        text-decoration: none;
+        margin-top: 40px !important;
+        cursor: pointer;
+        color: #6fbcc6;
+    }
+    button {
+        background: #141d55;
+        padding: 15px 100px;
+        width: 50%;
+        color: #ffffff;
+        font-family: Poppins;
+        border-radius: 30px;
+        border: none;
+        margin-top: 30px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+}
+
+.return_section {
+    margin-top: 60px;
+}
+.return_section {
+    a {
+        color: #141d55;
+        font-family: Poppins;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+.otp_image {
+    // background-color: #ff0000;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+    #container_main_otp {
+        width: 100%;
+        height: 100vh;
+        box-sizing: border-box;
+        padding: 20px 10px;
+        background: #5678f5b4;
+    }
+
+    .container_wrapper_otp {
+        width: 100%;
+        height: 100%;
+        // padding: 50px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .otp_content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 0px;
+        width: 100%;
+        height: 100%;
+        background: url(../images/ussd_bacground.svg);
+    }
+    .otp_form {
+        background-color: #ffffff93;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 20px;
+    }
+    .otp_form {
+        h2 {
+            font-family: poppins;
+            font-weight: 600;
+            font-size: 25px;
+            color: #141d55;
+        }
+        p {
+            margin-top: 0 !important;
+            font-family: poppins;
+            font-weight: 500;
+            font-size: 14px;
+            text-align: left;
+        }
+        .otp_input {
+            width: 50%;
+            // height: 30px;
+            outline: none;
+            border: 1px solid #5679f5;
+            letter-spacing: 35px;
+            font-size: 25px;
+            padding: 10px 20px;
+            text-align: center;
+            font-family: Raleway;
+            font-weight: 600;
+        }
+        .number_input {
+            width: 50%;
+            // height: 30px;
+            outline: none;
+            border: 1px solid #5679f5;
+            font-size: 25px;
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+    
+        h6 {
+            margin-top: 0 !important;
+            font-family: poppins;
+            font-weight: 500;
+            font-size: 15px;
+            text-decoration: none;
+            margin-top: 40px !important;
+            cursor: pointer;
+            color: #6fbcc6;
+        }
+        button {
+            background: #141d55;
+            padding: 15px 100px;
+            width: 50%;
+            color: #ffffff;
+            font-family: Poppins;
+            border-radius: 30px;
+            border: none;
+            margin-top: 30px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+    }
+
+    .otp_image {
+        // background-color: #ff0000;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        display: none;
+    }
+}
+
+/* loading css animation  Payout*/
+#loading_animation_otp {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(86, 121, 245, 0.7);
+    z-index: 999;
+    display: none;
+}
+.loading_container_otp {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.loading_container_otp p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 22px;
+}
